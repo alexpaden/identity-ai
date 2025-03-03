@@ -8,11 +8,14 @@ IAO guiding principle: Explicitly separate each reasoning step into:
 4. **Output** (the result of applying the action to the input)
 
 ### **Template**
-**Step [Number]:**  
-- **Subquestion:** [Clearly defined subquestion]  
-- **Input:** [Relevant facts / previous step’s output]  
-- **Action:** [Explicit action or operation to perform]  
-- **Output:** [Result from the action on the input]
+Please follow this format for your response:
+</IAO FORMAT>
+Step [number]:
+Subquestion: [subquestion]
+Input: [input, facts]
+Action: [action written as a function]
+Output: [output obtained from applying action to input]
+</IAO FORMAT>
 
 ---
 
