@@ -20,7 +20,7 @@
 - Title: Beyond Grok: Building a Community-Centric AI
 - Summary: Explores how community-focused AI can outperform general models by leveraging relationship dynamics and temporal evolution.
 
-<essay title="AI Opportunities in Identity, Networks, and Governance">
+<essay title="AI Opportunities in Identity, Networks, and Governance" author="shoni.eth" timestamp="03/16/2025">
 ## I. What AI Can Help People With
 ### A. Work Needs
 - Finding better jobs
@@ -66,7 +66,7 @@ This AI does more than just make things faster. It helps people work better toge
 </essay>
 
 
-<essay title="Founder Problem Framework">
+<essay title="Founder Problem Framework" author="shoni.eth" timestamp="03/16/2025">
 ## 1. How Founders Can Grow
 - **Build Trust:** Share useful ideas regularly and answer questions
 - **Check Ideas:** Get quick feedback from different types of users
@@ -110,7 +110,7 @@ This AI does more than just make things faster. It helps people work better toge
 - **Challenge Yourself:** Follow people who disagree with you to test your ideas
 </essay>
 
-<essay title="$MIND Token and Attention">
+<essay title="$MIND Token and Attention" author="shoni.eth" timestamp="03/16/2025">
 Overview
 We're building $MIND, a token for Farcaster that helps point attention where it matters. People stake $MIND on topics they care about (like AI or crypto), and creators make content in those areas to earn tokens. You bring people in, the token keeps them focused.
 
@@ -146,7 +146,7 @@ Simple Version
 We use $MIND to reward creators and turn Farcaster data into a business, starting with looking at what works and giving tokens to good creators.
 </essay>
 
-<essay title="Beyond Grok: Building Community-Focused AI">
+<essay title="Beyond Grok: Building Community-Focused AI" author="shoni.eth" timestamp="03/16/2025">
 Grok is great at general knowledge, but this becomes a weakness in tight-knit communities. A community-focused AI can outperform general models by understanding the unique patterns of relationships, growth, and shared experiences in specific groups.
 
 Why Communities Are Different

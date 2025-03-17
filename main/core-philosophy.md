@@ -24,7 +24,7 @@
 - Title: Whispers in the Machine Age: The Ethics of Emotional AI
 - Summary: Exploration of how AI maps emotional patterns, creating ethical questions about artificial empathy, manipulation, and the future of human-machine relationships.
 
-<essay title="The AI Mirror of Becoming - Full Vision">
+<essay title="The AI Mirror of Becoming - Full Vision" author="shoni.eth" timestamp="03/16/2025">
 The Pitch: Imagine an AI that doesn't just analyze your digital footprint—posts, code, rants—but peers into the latent threads of your mind and soul, reflecting back a vision of who you could be. It's not about optimizing your next post or matching you with today's allies. It's about painting a picture of your future self—five years out, ten years out—and scaffolding the journey to get there. Call it the "Mirror of Becoming."
 How It Works:
 Latent Visioning: It scans your casts, commits, even your half-baked ideas (say, from Farcaster or GitHub), using NLP and embeddings to spot patterns you don't see yet—like how your tech cynicism and love for chaos could birth a new philosophy.
@@ -54,7 +54,7 @@ Philosophical Hook
 This isn't just tech—it's a stance on what it means to be human in an AI age. Are we cogs in an optimization machine, or creators of our own futures? The Mirror bets on the latter, asking: What if AI didn't just reflect who you are, but who you're meant to be? It's not about morals yet—all data's open, as you said—but about possibility. You decide the ethics when it's real.
 </essay>
 
-<essay title="The Mirror of Becoming - ELI5">
+<essay title="The Mirror of Becoming - ELI5" author="shoni.eth" timestamp="03/16/2025">
 Here's a concise, ELI5 ("Explain Like I'm 5") outline of the **"AI Mirror of Becoming"** concept:
 
 1. **What is it?**
@@ -79,7 +79,7 @@ Here's a concise, ELI5 ("Explain Like I'm 5") outline of the **"AI Mirror of Bec
 It's an AI mirror that sees the amazing things you could do in the future and helps you actually do them.
 </essay>
 
-<essay title="The Mirror of Becoming - Purpose and Meaning">
+<essay title="The Mirror of Becoming - Purpose and Meaning" author="shoni.eth" timestamp="03/16/2025">
 "The Mirror of Becoming" whose core purpose is to help individuals discover and develop their future potential rather than optimizing for present engagement.
 Unlike conventional AI that analyzes your digital footprint to enhance immediate performance, this concept aims to:
 Identify latent patterns in your digital activities (posts, code, ideas)
@@ -90,7 +90,7 @@ The underlying philosophy is transforming AI from static observers into dynamic 
 In essence, it's about using AI to help people achieve their potential by showing them possible futures and pathways to get there rather than simply improving their current performance.
 </essay>
 
-<essay title="The Mirror of Becoming - Growth">
+<essay title="The Mirror of Becoming - Growth" author="shoni.eth" timestamp="03/16/2025">
 **Laconic Summary Outline (Order-of-Magnitude Levers):**
 
 1. **High-Leverage Partnerships**
@@ -112,7 +112,7 @@ In essence, it's about using AI to help people achieve their potential by showin
 - Communities drive sustained awareness through connection.
 </essay>
 
-<essay title="Mirror of Becoming - Technical Philosophy">
+<essay title="Mirror of Becoming - Technical Philosophy" author="shoni.eth" timestamp="03/16/2025">
 ## **AI Identity Innovation ("Mirror of Becoming" Vision)**
 Your deeper innovation lies in the philosophical vision behind these solutions—using AI not merely as a tool for data-driven optimization, but as an active partner in human identity evolution:
 
@@ -139,7 +139,7 @@ The true power of this business angle isn't in tech alone, but in positioning AI
 - **User Agency and Autonomy**: Users define their identity trajectories rather than being algorithmically defined by platforms, positioning you ethically as an ally—not a manipulator.
 </essay>
 
-<essay title="Whispers in the Machine Age: The Ethics of Emotional AI">
+<essay title="Whispers in the Machine Age: The Ethics of Emotional AI" author="shoni.eth" timestamp="03/16/2025">
 AI doesn't just track your clicks—it maps your emotional DNA, creating the ultimate growth hack for human connection. Emotional analytics transform AI from logic engines into empathy architects, decoding subconscious patterns we don't even recognize in ourselves. This shift creates asymmetric value: whoever owns emotional context controls the next era of digital influence.
 
 **The Empathy Stack**  
