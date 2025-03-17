@@ -32,7 +32,7 @@
             <input>
                 <context>./main/*</context>
             </input>
-            <output>main-result.md</output>
+            <output>results/main-result.md</output>
             <template>
                 <!-- Core template for synthesizing main insights -->
                 <CODEX>
@@ -79,7 +79,7 @@
                     2. Extract key concepts, patterns, and insights
                     3. Apply CODEX template structure directly in its response
                     4. Follow velocity-over-polish principle
-                    5. Synthesize insights across all input files into main-result.md
+                    5. Synthesize insights across all input files into results/main-result.md
                     6. Generate content directly rather than executing scripts
                 </description>
                 <print_to_chat>true</print_to_chat>
@@ -89,12 +89,12 @@
         <step id="2" name="generate-working-result">
             <input>
                 <files>
-                    <file>main-result.md</file>
+                    <file>results/main-result.md</file>
                     <file>timeline.md</file>
                     <file>todo.md</file>
                 </files>
             </input>
-            <output>working-result.md</output>
+            <output>results/missing-result.md</output>
             <template>
                 <!-- Simple Instructions for LLM: Write a concise, casual, direct report on something genuinely important 
                      that is missing or overlooked in the provided context. Follow all instructions carefully, step-by-step. 
@@ -181,11 +181,11 @@
                 <command>ai_synthesis</command>
                 <description>
                     The AI assistant will:
-                    1. Analyze main-result.md for gaps
+                    1. Analyze results/main-result.md for gaps
                     2. Compare against timeline and todo
                     3. Apply missing element template structure
                     4. Focus on practical implementation gaps
-                    5. Generate working-result.md directly with recommendations
+                    5. Generate results/missing-result.md directly with recommendations
                     6. Ensure recommendations align with timeline/todo
                 </description>
                 <print_to_chat>true</print_to_chat>
@@ -195,22 +195,22 @@
         <step id="3" name="generate-final-document">
             <input>
                 <files>
-                    <file>main-result.md</file>
-                    <file>working-result.md</file>
+                    <file>results/main-result.md</file>
+                    <file>results/missing-result.md</file>
                     <dir>./main/*.md</dir>
                     <file>todo.md</file>
                     <file>timeline.md</file>
                 </files>
             </input>
-            <output>one-shot-context.md</output>
+            <output>results/one-shot-context.md</output>
             <action>
                 <command>shell_script</command>
                 <script_path>./generate_final_doc.sh</script_path>
                 <description>
                     Execute generate_final_doc.sh which will:
                     1. Create output file with proper header and timestamp
-                    2. Append main-result.md under "Main Content"
-                    3. Append working-result.md under "Additional Context"
+                    2. Append results/main-result.md under "Main Content"
+                    3. Append results/missing-result.md under "Additional Context"
                     4. Append all files from ./main/ under "Source Documentation"
                     5. Append todo.md and timeline.md under "Project Management"
                     6. Add footer noting AI-assisted compilation
@@ -224,9 +224,9 @@
 
     <validation>
         <rules>
-            <rule>Verify all CODEX sections are present in main-result.md</rule>
-            <rule>Check that working-result.md addresses practical implementation gaps</rule>
-            <rule>Ensure one-shot-context.md contains all source content</rule>
+            <rule>Verify all CODEX sections are present in results/main-result.md</rule>
+            <rule>Check that results/missing-result.md addresses practical implementation gaps</rule>
+            <rule>Ensure results/one-shot-context.md contains all source content</rule>
             <rule>Validate proper formatting and section organization</rule>
         </rules>
     </validation>

@@ -1,7 +1,10 @@
 #!/bin/bash
 
 # Create the output file
-output_file="one-shot-context.md"
+output_file="results/one-shot-context.md"
+
+# Create results directory if it doesn't exist
+mkdir -p results
 
 # Clear the output file if it exists
 > "$output_file"
@@ -21,15 +24,15 @@ cat << 'EOF' > "$output_file"
 EOF
 
 # Append main-result.md
-echo -e "\n<!-- ==================== MAIN CONTENT (main-result.md) ==================== -->" >> "$output_file"
+echo -e "\n<!-- ==================== MAIN CONTENT (results/main-result.md) ==================== -->" >> "$output_file"
 echo -e "## Main Content\n" >> "$output_file"
-cat main-result.md >> "$output_file"
+cat results/main-result.md >> "$output_file"
 echo "" >> "$output_file"
 
 # Append working-result.md
-echo -e "\n<!-- ==================== ADDITIONAL CONTEXT (working-result.md) ==================== -->" >> "$output_file"
+echo -e "\n<!-- ==================== ADDITIONAL CONTEXT (results/missing-result.md) ==================== -->" >> "$output_file"
 echo -e "## Additional Context\n" >> "$output_file"
-cat working-result.md >> "$output_file"
+cat results/missing-result.md >> "$output_file"
 echo "" >> "$output_file"
 
 # Append all files from main directory
