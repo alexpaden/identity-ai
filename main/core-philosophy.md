@@ -1,7 +1,8 @@
+<CORE-PHILOSOPHY>
 # AI Mirror of Becoming
-
 <--->
-<!--- ESSAYS --->
+<!--- CORE CONCEPT & VISION ESSAYS --->
+Note: These essays progress.
 <--->
 
 - TITLE: The Mirror of Becoming - ELI5
@@ -10,11 +11,13 @@
 - TITLE: The Mirror of Becoming - Purpose and Meaning
   Summary: Core exploration of how AI can guide personal growth by identifying future potential rather than optimizing present engagement.
 
-- TITLE: Contradictions Reveal Futures
-  Summary: Analysis of how contradictions in human behavior serve as signals for potential future identities and growth paths.
-
 - TITLE: The Mirror of Becoming - Growth
   Summary: Strategic outline for scaling the concept through partnerships, content creation, and community building approaches.
+
+<--->
+<!--- TECHNICAL & ETHICAL IMPLICATIONS ESSAYS --->
+Note: These essays move.
+<--->
 
 - TITLE: Mirror of Becoming - Technical Philosophy
   Summary: Deep dive into the philosophical innovation of using AI as a partner in human identity evolution and development.
@@ -174,3 +177,4 @@ The final barrier between humans and machines isn't intelligence—it's the cour
 <essay title="User-Directed Identity: How Emotional Feedback Shapes AI Predictions" author="" timestamp="">
 ...
 </essay>
+</CORE-PHILOSOPHY>
