@@ -218,6 +218,6 @@ FOCUS: Extract maximum value from protocol-native data with minimum effort to gr
 ## Native Signal Types
 Let Merkle Work For You. Their job is to get more connection data onhub/onchain. Our job is to use that data to drive new insight.
 
-## Mind Map
+DO NOT FOCUS ON DRIVING USERS TOWARD AN ACTIVITY THEY DON'T WANT TO DO. LET SOMEONE ELSE DO THAT LABOR.
 </essay>
 </BUSINESS-STRATEGY>
