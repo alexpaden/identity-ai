@@ -10,6 +10,8 @@
 - Summary: Explores key areas where AI can enhance human potential through professional advancement, social connections, and decentralized governance systems.
 - Title: Founder Problem Framework
 - Summary: Key challenges founders face and concise AI-driven solutions to overcome them.
+- Title: Protocol-First: Leveraging Native Farcaster Data
+- Summary: Let FC+Merkle work to grow Farcaster data connections for you.
 
 <--->
 <!--- PRODUCT & INCENTIVES ESSAYS --->
@@ -202,5 +204,20 @@ Technical Implementation:
 
 <essay title="Collective Futures: Mapping Community Evolution for Strategic Collaboration" author="" timestamp="">
 
+</essay>
+
+<essay title="Protocol-First: Leveraging Native Farcaster Data" author="shoni.eth" timestamp="03/19/2025">
+## Core Thesis
+FOCUS: Extract maximum value from protocol-native data with minimum effort to grow the number of data connections (github, linkedin, x, etc).
+
+## Why Protocol-First Matters
+- Users already connect and share data naturally (or via warpcast incentives)
+- Cross-platform linking creates friction during onboarding + new work
+- Protocol-level data is user verified and interest based
+
+## Native Signal Types
+Let Merkle Work For You. Their job is to get more connection data onhub/onchain. Our job is to use that data to drive new insight.
+
+## Mind Map
 </essay>
 </BUSINESS-STRATEGY>
