@@ -13,61 +13,67 @@
 ## Main Content
 
 <MAIN-RESULT.md>
-# Mirror of Becoming: Main Synthesis
+# AI Mirror of Becoming - Main Synthesis
 
-<CODEX>
-<Vision>AI Mirror of Becoming: A platform leveraging AI to help individuals discover their future potential through temporal knowledge graphs, community-specific models, and cross-platform identity analysis.</Vision>
+## Vision
+An AI system that helps individuals discover and develop their future potential through temporal knowledge graphs, community-specific AI models, and cross-platform identity analysis, rather than just optimizing present engagement.
 
-<Friction>
-- Identity fragmentation across multiple platforms prevents holistic self-understanding
-- Current AI optimizes for present engagement rather than future growth potential
-- Contradiction patterns in user behavior remain unanalyzed but contain critical growth signals
-- Technical complexities of temporal knowledge graphs limit implementation
-</Friction>
+## Friction
+- Current AI systems focus on present optimization rather than future potential
+- Digital footprints are fragmented across platforms, making holistic identity analysis difficult
+- Offline learning and development remain untracked in digital systems
+- Generic AI models miss the nuances of niche communities
+- Privacy concerns around identity data collection and analysis
 
-<Leverage>
-- Farcaster community provides ideal testing ground with accessible data and engaged users
-- Existing open-source tools can be adapted for cross-platform identity scraping
-- Small Language Models offer cost-effective community-specific training vs. large LLMs
-- Contradictions in user behavior reveal untapped potential for identity evolution
-- Token economy ($MIND) can align incentives between platform, creators, and users
-</Leverage>
+## Leverage
+- Temporal knowledge graphs for tracking identity evolution
+- Community-specific AI models that understand unique patterns and relationships
+- Cross-platform identity bridges (Farcaster, GitHub, X, LinkedIn)
+- Contradiction detection revealing hidden growth paths
+- Synthetic data generation for training niche models
+- Token-based attention economy ($MIND) for incentivizing valuable content
 
-<Mechanics>
-- Temporal Knowledge Graph tracks user identity evolution across time horizons
-- Cross-platform data collection unifies fragmented digital identities
-- Community-specific AI models fine-tuned on niche communication patterns
-- Contradiction detection surfaces growth opportunities in user behavior
-- Future-self projection based on latent patterns in current activities
-- Token staking mechanisms direct attention to valuable content categories
-</Mechanics>
+## Mechanics
+1. Data Collection & Processing
+   - Scraping and analyzing cross-platform digital traces
+   - Building temporal knowledge graphs
+   - Generating synthetic data for training
+   - Validating offline learning through various signals
 
-<NextMoves>
-- Implement basic Farcaster data collection pipeline using custom indexers
-- Build simplified knowledge graph using Neo4j for initial prototyping
-- Develop rudimentary identity evolution visualization (React + D3.js)
-- Test initial user interest with 100-200 early adopters from Farcaster
-- Research temporal graph management solutions (Neo4j vs TigerGraph)
-</NextMoves>
+2. Model Architecture
+   - Custom evaluations for specific behaviors
+   - Dynamic graph databases for tracking evolution
+   - Community-specific fine-tuning
+   - Zero-knowledge privacy layers
 
-<Whispers>
-- Offline-online integration remains underdeveloped yet critical for holistic identity tracking
-- Emotional AI components might enhance future-self projection but raise ethical concerns
-- Self-sovereign identity principles could strengthen user trust but add implementation complexity
-- Art and visualization of "becoming" could be as important as the data mechanics
-</Whispers>
+3. Value Generation
+   - Future-self projections
+   - Strategic collaboration recommendations
+   - Skill gap identification
+   - Community growth tracking
 
-<RecursiveMultiplier>
-- Add "Contradiction Detection" as explicit template component for future iterations
-- Incorporate offline-online integration measurement into template structure
-- Include ethical concerns section to track emerging issues as system develops
-- Add community feedback mechanism to validate AI projections against real user experiences
-</RecursiveMultiplier>
+## NextMoves
+1. Implement core temporal knowledge graph infrastructure
+2. Develop community-specific AI model training pipeline
+3. Build cross-platform identity bridge system
+4. Create $MIND token economy for attention management
+5. Launch initial community pilot program
 
-<OneThingNotIncluded>
-The system lacks robust mechanisms for bridging online and offline identity indicators. While digital footprints provide substantial data, significant personal development occurs through offline experiences—workshops, conferences, mentoring, and side projects. This creates an incomplete picture that could lead to misinterpreted growth patterns or allow users to game the system through online-only metrics. Simple solutions like skill validation layers, verified check-ins, and peer confirmation of real-world achievements could strengthen the system's accuracy.
-</OneThingNotIncluded>
-</CODEX>
+## Whispers
+- The system could evolve to become a "collective consciousness" for communities
+- Future potential might be more valuable than present performance
+- Contradictions in behavior could be the key to growth
+- Offline validation might be more important than online metrics
+- Community-specific models might outperform general AI in certain domains
+
+## RecursiveMultiplier
+- Weekly synthesis of community patterns
+- Monthly model retraining with new data
+- Quarterly evaluation of template effectiveness
+- Annual strategic pivot based on accumulated insights
+
+## OneThingNotIncluded
+The system needs a robust mechanism for handling identity conflicts and contradictions between different platforms and contexts, ensuring that the AI can reconcile and learn from these differences rather than treating them as errors.
 </MAIN-RESULT.md>
 
 
@@ -75,90 +81,73 @@ The system lacks robust mechanisms for bridging online and offline identity indi
 ## Additional Context
 
 <MISSING-RESULT.md>
-# What's Missing
+# Critical Missing Elements in AI Mirror of Becoming
 
-A comprehensive user growth measurement framework that bridges digital and real-world signals. While the AI Mirror of Becoming ambitiously tracks digital identity evolution, it lacks concrete mechanisms for validating and integrating offline growth experiences - which often represent the most significant personal development milestones.
+## What's Missing
+The system lacks a comprehensive framework for handling identity evolution during major life transitions and career pivots. While the temporal knowledge graph tracks gradual changes, it doesn't adequately address sudden shifts or radical transformations in user identity.
 
 ## Why It Matters
-
-Without capturing offline development, the system risks creating a distorted view of identity evolution. User success is determined by what's measurable (online activity) rather than what's meaningful (real-world transformation). This creates three critical problems:
-
-- **Incomplete Insights**: Digital footprints only show part of the identity picture - missing workshops attended, books read, mentorship received, and real-world skills developed
-- **Behavioral Skewing**: Users may optimize for visible online metrics instead of authentic growth, creating misleading identity projections
-- **Trust Degradation**: If future-self projections fail to align with users' real-world progression, trust in the system will erode quickly
-
-The offline gap represents not just a technical challenge but an existential one for a platform focused on authentic identity evolution.
+Major life transitions (career changes, relocations, relationship changes) often involve rapid identity evolution that can't be captured by gradual pattern analysis. Without proper handling of these transitions:
+- Users might receive outdated or irrelevant recommendations
+- The system could miss valuable learning opportunities from transition periods
+- Identity projections might become inaccurate during critical decision points
+- Community connections might not adapt to new user trajectories
 
 ## Key Challenges
+1. Data Collection During Transitions
+   - Users often reduce digital activity during major life changes
+   - Existing data might become irrelevant or misleading
+   - New identity signals might be scattered across different platforms
 
-- **Data Verification**: How to validate offline achievements without creating burdensome documentation requirements
-- **Privacy Balance**: Capturing offline activities while respecting user boundaries and avoiding surveillance vibes
-- **Integration Complexity**: Merging qualitatively different signals (digital traces vs. real-world experiences) into coherent identity models
-- **Measurement Standardization**: Creating consistent evaluation frameworks for diverse real-world growth experiences
-- **Signal Noise**: Distinguishing meaningful offline activities from insignificant ones without human supervision
-- **Technical Implementation**: Extending temporal knowledge graphs to incorporate verifiable offline data points
+2. Model Adaptation
+   - Current models assume gradual evolution
+   - Sudden changes might be treated as anomalies rather than opportunities
+   - Historical data might need reinterpretation
+
+3. Community Impact
+   - Existing connections might not align with new identity
+   - Community recommendations might lag behind user changes
+   - Support systems might not activate at the right time
 
 ## Simple Solutions
+1. Transition Detection System
+   - Monitor for sudden changes in activity patterns
+   - Track cross-platform identity consistency
+   - Flag potential transition periods for special attention
 
-1. **Lightweight Check-In System**
-   - Time-bound photo evidence of attendance at events (with privacy protections)
-   - Location verification for professional gatherings, workshops, conferences
-   - POAP-like tokens issued for verified offline participation
+2. Adaptive Learning Framework
+   - Implement "transition mode" in the temporal graph
+   - Allow for temporary identity ambiguity
+   - Create special handling for transition-period data
 
-2. **Trust Network Validation**
-   - Peer confirmation of achievements through trusted community members
-   - "Three attestations" approach - requiring multiple validations for major accomplishments
-   - Credibility weighting based on validator relationships and expertise
-
-3. **Hybrid Measurement Framework**
-   - Define explicit "online-offline" paired indicators (e.g., studying AI ethics online + attending ethics workshop)
-   - Create weighted scoring that balances digital activity with verified real-world growth
-   - Implement periodic self-assessment with community validation
-
-4. **Integration into Existing Timeline**
-   - Add offline validation components to the prototype development phase (months 0-3)
-   - Incorporate offline metrics into early user testing with 100-200 Farcaster adopters
-   - Develop simple validation mechanics before expanding to additional platforms
+3. Community Support Mechanisms
+   - Develop transition-specific recommendation engine
+   - Create temporary "transition circles" for support
+   - Implement gradual connection recalibration
 
 ## Mind Map
-
 ```
-Offline-Online Integration
-├── Data Collection
-│   ├── Self-reported activities
-│   ├── Peer validations
-│   ├── Event check-ins
-│   └── Physical output documentation
-├── Verification Methods
-│   ├── Trust network attestations
-│   ├── Location confirmation
-│   ├── Timestamped evidence
-│   └── Achievement credentials
-├── Integration Architecture
-│   ├── Temporal knowledge graph extension
-│   ├── Weighted signal processing
-│   ├── Unified identity model
-│   └── Confidence scoring system
-└── User Experience
-    ├── Frictionless reporting
-    ├── Privacy controls
-    ├── Growth visualization
-    └── Feedback mechanisms
+Identity Transitions
+├── Detection
+│   ├── Activity Patterns
+│   ├── Cross-Platform Signals
+│   └── Community Feedback
+├── Adaptation
+│   ├── Model Adjustments
+│   ├── Data Reinterpretation
+│   └── Historical Context
+└── Support
+    ├── Community Connections
+    ├── Resource Recommendations
+    └── Progress Tracking
 ```
 
 ## Next Steps
-
-1. **Define Offline Signal Framework**: Create a taxonomy of valuable offline growth activities and appropriate verification methods (Timeline: Month 1)
-
-2. **Design Lightweight Validation Protocol**: Develop minimally intrusive verification mechanics that balance ease-of-use with signal integrity (Timeline: Month 2)
-
-3. **Prototype Integration**: Add offline data points to the knowledge graph prototype and test with a small user group (Timeline: Month 3)
-
-4. **Community Validation Testing**: Implement peer verification mechanics with 20-30 early adopters (Timeline: Month 3-4)
-
-5. **Establish Baseline Metrics**: Define measurement framework for evaluating the offline-online integration success (Timeline: Month 4)
-
-6. **Update Project Timeline**: Formalize offline integration in the existing development roadmap (Timeline: Immediate) </MISSING-RESULT.md>
+1. Develop transition detection algorithms
+2. Create transition-specific data collection protocols
+3. Build adaptive learning framework for sudden changes
+4. Implement community support mechanisms
+5. Test with users undergoing major life transitions </MISSING-RESULT.md>
 
 
 <!-- ==================== SOURCE DOCUMENTATION (./main/*.md) ==================== -->
@@ -677,6 +666,8 @@ The ideal AI functions as a mirror of becoming—reflecting potential futures wh
 - Summary: Examines methods to integrate offline learning and development signals with digital footprints for more accurate growth tracking.
 - Title: Open Deep Research Repo & Adapted Use Case
 - Summary: Explains practical applications of ODR (open deep research, like deepresearch by openai) for user modeling and future-self discovery through automated research and pattern analysis.
+- Title: Farcaster Default Database Schema: Postgres Tables & Relationships
+- Summary: Comprehensive overview of the default Farcaster database structure, including table schemas, column descriptions, and key relationships.
 
 <essay title="Precision User Modeling: Key Concepts & Applications" author="shoni.eth" timestamp="03/16/2025">
 ### Core Components
@@ -950,14 +941,113 @@ The real breakthrough of ODR isn't just automating academic papers—it's creati
 Whether researching market trends, exploring scientific literature, or understanding social patterns, ODR's approach of "plan, search, synthesize, refine" provides a powerful foundation for AI-powered knowledge work beyond traditional research contexts.
 </essay>
 
+
+<essay title="Farcaster Default Database Schema: Tables & Relationships" author="shoni.eth" timestamp="03/19/2025">
+### **Default (Starting) Farcaster Table Overview**
+A **concise schema reference** including tables, columns, descriptions, and relationships.
+
+---
+
+| **Table Name**                  | **Column Name**          | **Description & Relations** |
+|---------------------------------|-------------------------|----------------------------|
+| **casts**                      | hash                  | Primary key, unique ID for each cast. |
+|                                 | fid                   | Foreign key to fids.fid, author of the cast. |
+|                                 | timestamp             | Creation time on Farcaster. |
+|                                 | text                  | Content of the cast. |
+|                                 | parent_hash           | If a reply, links to casts.hash. |
+|                                 | parent_fid            | If a reply, links to fids.fid of parent author. |
+|                                 | embeds                | JSON array of media, links, etc. |
+|                                 | mentions              | Array of mentioned fids. |
+|                                 | mentions_positions    | Index positions of mentions in text. |
+| **fids**                        | fid                   | Primary key, unique user ID. |
+|                                 | created_at            | Time when user joined Farcaster. |
+|                                 | custody_address       | Web3 address storing user profile. |
+| **fnames**                      | fid                   | Foreign key to fids.fid, owner of the username. |
+|                                 | fname                 | Unique username for a user. |
+|                                 | expires_at            | Expiry time of the username. |
+| **links**                       | fid                   | Follower's fid. |
+|                                 | target_fid            | Followed user's fid. |
+|                                 | type                  | Relationship type (currently always "follow"). |
+|                                 | deleted_at            | If unfollowed, the timestamp of removal. |
+| **profile_with_addresses**      | fid                   | Foreign key to fids.fid. |
+|                                 | fname                 | User's primary username. |
+|                                 | display_name          | Display name set by user. |
+|                                 | avatar_url            | Profile picture URL. |
+|                                 | bio                   | User bio text. |
+|                                 | verified_addresses    | JSON array of linked Web3 addresses. |
+| **reactions**                   | hash                  | Primary key, unique ID for each reaction. |
+|                                 | fid                   | Foreign key to fids.fid, user who reacted. |
+|                                 | reaction_type         | 1 = like, 2 = recast. |
+|                                 | target_hash           | Foreign key to casts.hash, the reacted cast. |
+|                                 | target_fid            | Author of the cast being reacted to. |
+| **signers**                     | fid                   | Foreign key to fids.fid. |
+|                                 | signer                | Web3 wallet address used as a signer. |
+| **storage**                     | fid                   | Foreign key to fids.fid. |
+|                                 | units                 | Number of storage units allocated to user. |
+|                                 | expiry                | Time when storage expires. |
+| **user_data**                   | fid                   | Foreign key to fids.fid. |
+|                                 | type                  | Type of data (e.g., avatar, display name, bio). |
+|                                 | value                 | Actual stored value. |
+| **verifications**               | fid                   | Foreign key to fids.fid. |
+|                                 | claim                 | JSON object with connected wallet details. |
+| **channel_data**                | parent_url            | Identifier of the channel. |
+|                                 | name                  | Display name of the channel. |
+|                                 | image                 | Channel image URL. |
+|                                 | channel_id            | Unique ID of the channel. |
+| **channels**                    | channel_id            | Primary key, unique channel identifier. |
+|                                 | description           | Description of the channel. |
+|                                 | created_at            | Time when channel was created. |
+|                                 | updated_at            | Time when channel was last updated. |
+| **channel_follows**             | fid                   | Foreign key to fids.fid, follower. |
+|                                 | channel_id            | ID of the channel being followed. |
+|                                 | timestamp             | When the follow occurred. |
+| **channel_members**             | fid                   | Foreign key to fids.fid, member. |
+|                                 | channel_id            | ID of the channel. |
+|                                 | role                  | Member's role in the channel. |
+|                                 | timestamp             | When they became a member. |
+| **blocks**                      | blocker_fid           | FID of user doing the blocking. |
+|                                 | blocked_fid           | FID of blocked user. |
+|                                 | timestamp             | When the block occurred. |
+| **power_users**                 | fid                   | Foreign key to fids.fid. |
+|                                 | is_power_user         | Boolean indicating power user status. |
+| **user_labels**                 | fid                   | Foreign key to fids.fid. |
+|                                 | label                 | User classification label. |
+|                                 | timestamp             | When label was assigned. |
+| **parquet_import_tracking**     | table_name            | Name of the table being tracked. |
+|                                 | last_imported_at      | Last time data was imported. |
+|                                 | last_imported_file    | Name of last imported file. |
+|                                 | status                | Status of the import process. |
+
+### **Relationships Overview**
+- **Users (fids) are central**: Many tables reference fid (e.g., casts, links, reactions, profile_with_addresses, follow_counts).
+- **Casts (casts.hash) are referenced by**:  
+  - reactions.target_hash (for likes/recasts).  
+  - casts.parent_hash (for replies).  
+- **Followers (links) connect users**: fid → target_fid represents follows.  
+- **Profiles (profile_with_addresses) store metadata**: Joins on fids.fid.  
+- **Reactions (reactions) connect users and casts**: fid is the reactor, target_hash is the cast.  
+- **Signers (signers) and verifications (verifications) store Web3 wallet data** for fids.fid.  
+- **Channels (channels) link with**:  
+  - channel_follows (followers of a channel).  
+  - channel_members (members of a channel).  
+- **Blocking system**: blocks tracks who blocked whom.  
+- **Analytics/Scoring**:  
+  - neynar_user_scores tracks engagement scores.  
+  - follow_counts stores follower/following numbers.  
+  - power_users flags high-activity users.  
+  - user_labels classifies users.  
+- **Data import tracking**: parquet_import_tracking logs data imports.
+</essay>
+
+
 <essay title="Identity Timelines: Visualizing Personal Growth Past, Present, and Future" author="" timestamp="">
 
 </essay>
 
+
 <essay title="From Contradiction to Growth: Converting Behavioral Inconsistencies into Development Opportunities" author="" timestamp="">
 
 </essay>
-
 </TECHNICAL-ARCHITECTURE></TECHNICAL-ARCHITECTURE.md>
 
 
