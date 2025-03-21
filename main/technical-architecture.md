@@ -23,7 +23,9 @@
 - Title: Sentence Level Frameworks
 - Summary: A collections of frameworks to capture an essence of data at the sentence level.
 - Title: Simple Classification Observe the Surface Level
-- Summary: Sentences should be used to build upon that, stay simple, concise, fast. Lean.</essay>
+- Summary: Sentences should be used to build upon that, stay simple, concise, fast. Lean.
+- Title: Summarizing User Relationships with Simple Labels and Dynamic Context
+- Summary: this essay proposes using simple, broad labels (such as main interests or general tone) to represent users, and only creating richer context-driven summaries when requested or needed.
 
 
 <essay title="Precision User Modeling: Key Concepts & Applications" author="shoni.eth" timestamp="03/16/2025">
@@ -597,4 +599,12 @@ By combining these **community-level** approaches with the **individual** framew
 
 
 <essay title="Simple Classification Observe the Surface Level" author="" timestamp="">Sentences should be used to build upon that, stay simple, concise, fast. Lean.</essay>
+
+
+<essay title="Summarizing User Relationships with Simple Labels and Dynamic Context" author="shoni.eth" timestamp="03/20/2025">
+Instead of generating detailed descriptions for every user interaction, this essay proposes using simple, broad labels (such as main interests or general tone) to represent users, and only creating richer context-driven summaries when requested or needed. This balances capturing nuanced human relationships—like one-sided interest or changing dynamics—with efficiency at large community scales, enabling personalized yet scalable insights.
+
+It would potentially be valuable to capture as much of this relationship data as possible when training a core model.
+</essay>
+
 </TECHNICAL-ARCHITECTURE>
