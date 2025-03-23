@@ -64,11 +64,13 @@ Output must be wrapped in these self-modifying tags:
    - Capture thoughts in raw XML-like format without overstructuring
    - Favor 3 bullet points over 3 paragraphs
    - Update the template weekly based on what actually generated insight
+   - Reference other.md for additional emerging ideas and patterns
 
 2) COMPOUNDING MECHANICS:
    - Daily: Brutally simple capture (90 seconds max per entry)
    - Weekly: Cluster related friction/leverage points
    - Monthly: Prune ineffective template sections
+   - Cross-reference with other.md for pattern validation
 
 3) NONLINEAR THINKING:
    - Track idea half-life (mark expiration dates on insights)
@@ -93,6 +95,7 @@ Output must be wrapped in these self-modifying tags:
    - Run `find -mtime -7` to cluster last week's entries
    - Migrate valuable whispers to proper sections
    - Update <RecursiveMultiplier> with pattern insights
+   - Cross-reference emerging patterns with other.md
    - Delete lowest-value 20% of entries
    - Explicitly acknowledge one blind spot
 

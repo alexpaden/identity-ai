@@ -25,6 +25,7 @@
   <Instructions>
     <Goal>
       Write a concise, direct, casual report on a genuinely important missing or overlooked element in the provided context.
+      Cross-reference with other.md to ensure completeness of analysis.
     </Goal>
 
     <ToneAndStyle>
@@ -32,10 +33,11 @@
       - Layman-friendly (no obscure jargon).
       - No fluff, no hype.
       - Emphasize clarity and practicality over long-winded detail.
+      - Consider patterns from other.md when relevant.
     </ToneAndStyle>
 
     <KeyPoint>
-      - Must highlight a specific “missing element.”
+      - Must highlight a specific "missing element."
       - Must show *why* it matters, *what* challenges it creates, and *how* to fix it.
     </KeyPoint>
   </Instructions>
@@ -52,13 +54,14 @@
       <!-- 
         Step 1: Interpret the context to find a critical gap
       -->
-      <Step>Read <ContextData> carefully, note any unaddressed or insufficiently covered topic.</Step>
+      <Step>Read <ContextData> and other.md carefully, note any unaddressed or insufficiently covered topic.</Step>
       <Step>Select the most impactful missing or overlooked element.</Step>
+      <Step>Validate against existing patterns in other.md.</Step>
     </SubWorkflow>
 
     <SubWorkflow id="2" name="ExplainWhyItMatters">
       <!-- 
-        Step 2: Provide a straightforward explanation of the gap’s significance
+        Step 2: Provide a straightforward explanation of the gap's significance
       -->
       <Step>Outline the direct impacts on users, community, or product if not addressed.</Step>
       <Step>Use layman-friendly examples.</Step>

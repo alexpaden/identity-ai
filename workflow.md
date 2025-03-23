@@ -19,6 +19,8 @@
                 <description>Details business model, growth strategy, and market approach</description>
                 <file>technical-architecture.md</file>
                 <description>Technical implementation details and system architecture</description>
+                <file>other.md</file>
+                <description>Additional ideas, patterns and emerging concepts</description>
             </dir>
             <file>timeline.md</file>
             <description>Project timeline and development phases</description>
@@ -79,8 +81,9 @@
                     2. Extract key concepts, patterns, and insights
                     3. Apply CODEX template structure directly in its response
                     4. Follow velocity-over-polish principle
-                    5. Synthesize insights across all input files into results/main-result.md
-                    6. Generate content directly rather than executing scripts
+                    5. Cross-reference patterns from other.md
+                    6. Synthesize insights across all input files into results/main-result.md
+                    7. Generate content directly rather than executing scripts
                 </description>
                 <print_to_chat>true</print_to_chat>
             </action>
@@ -90,6 +93,7 @@
             <input>
                 <files>
                     <file>results/main-result.md</file>
+                    <file>main/other.md</file>
                     <file>timeline.md</file>
                     <file>todo.md</file>
                 </files>
@@ -228,6 +232,7 @@
             <rule>Check that results/missing-result.md addresses practical implementation gaps</rule>
             <rule>Ensure results/one-shot-context.md contains all source content</rule>
             <rule>Validate proper formatting and section organization</rule>
+            <rule>Verify other.md patterns are properly cross-referenced</rule>
         </rules>
     </validation>
 </workflow>

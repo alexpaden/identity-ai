@@ -31,6 +31,14 @@ cat results/main-result.md >> "$output_file"
 echo -e "</MAIN-RESULT.md>" >> "$output_file"
 echo "" >> "$output_file"
 
+# Append other.md
+echo -e "\n<!-- ==================== OTHER IDEAS (main/other.md) ==================== -->" >> "$output_file"
+echo -e "## Other Ideas\n" >> "$output_file"
+echo -e "<OTHER.md>" >> "$output_file"
+cat main/other.md >> "$output_file"
+echo -e "</OTHER.md>" >> "$output_file"
+echo "" >> "$output_file"
+
 # Append missing-result.md
 echo -e "\n<!-- ==================== ADDITIONAL CONTEXT (results/missing-result.md) ==================== -->" >> "$output_file"
 echo -e "## Additional Context\n" >> "$output_file"
