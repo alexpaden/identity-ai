@@ -105,7 +105,7 @@
     -->
     <HeaderLevel>Use H2 or H3 for main headings (Why It Matters, Challenges, Solutions, etc.).</HeaderLevel>
     <Lists>Use bullet points or numbered steps for clarity.</Lists>
-    <MindMapFormat>Use simple ASCII text to illustrate the hierarchy of the missing element, challenges, solutions.</MindMapFormat>
+    <MindMapFormat>Use simple ASCII text to illustrate the hierarchy of the missing element, challenges, solutions. Do not put it in a code doc section ``` since it breaks formatting.</MindMapFormat>
   </FormattingGuidelines>
 
   <!--

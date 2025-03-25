@@ -32,15 +32,15 @@ Output must be wrapped in these self-modifying tags:
   </Mechanics>
 
   <NextMoves>
-    <!-- Immediate executable actions (next 72 hours) - 'none' valid -->
+    <!-- Immediate executable actions - 'none' valid -->
   </NextMoves>
 
   <Whispers>
-    <!-- Half-formed intuitions and pattern fragments -->
+    <!-- Half-formed intuitions and idea fragments -->
   </Whispers>
 
   <RecursiveMultiplier>
-    <!-- Weekly synthesis that modifies the template itself -->
+    <!-- Weekly synthesis that modifies the template itself. Suggested edits to this template producing the document -->
   </RecursiveMultiplier>
 
   <OneThingNotIncluded>
@@ -81,28 +81,6 @@ Output must be wrapped in these self-modifying tags:
    - Let system break before your company does
    - Stress-test blind spots weekly
    - Automate pattern detection (simple scripts over manual analysis)
-
-====================================
-   WORKFLOW INSTRUCTIONS:
-====================================
-
-1) DAILY CAPTURE:
-   - 7:30PM: 3 bullet points per XML tag
-   - Tag entries with #friction/#leverage/#signal
-   - Never spend more than 2 minutes formatting
-
-2) WEEKLY SYNTHESIS:
-   - Run `find -mtime -7` to cluster last week's entries
-   - Migrate valuable whispers to proper sections
-   - Update <RecursiveMultiplier> with pattern insights
-   - Cross-reference emerging patterns with other.md
-   - Delete lowest-value 20% of entries
-   - Explicitly acknowledge one blind spot
-
-3) MONTHLY EVOLUTION:
-   - Compare current template to version-1
-   - Keep what generated actual insight
-   - Burn what felt important but wasn't
 
 ====================================
    FINAL OUTPUT ONLY:

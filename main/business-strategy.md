@@ -25,6 +25,9 @@
 - Title: Beyond Grok: Building a Community-Centric AI
 - Summary: Explores how community-focused AI can outperform general models by leveraging relationship dynamics and temporal evolution.
 
+- Title: Behavioral Data Layers: From Insight to Action
+- Summary:: We're talking about three data layers: observation, self-reporting, and generated feedback for behavior change.
+
 <essay title="AI Opportunities in Identity, Networks, and Governance" author="shoni.eth" timestamp="03/16/2025">
 ## I. What AI Can Help People With
 ### A. Work Needs

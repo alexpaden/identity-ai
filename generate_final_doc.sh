@@ -9,12 +9,15 @@ mkdir -p results
 # Clear the output file if it exists
 > "$output_file"
 
+# Get current date
+current_date=$(date)
+
 # Add introduction note and wrapper
-cat << 'EOF' > "$output_file"
+cat << EOF > "$output_file"
 <!--
   Generated Documentation
   Auto-generated comprehensive documentation from multiple markdown sources
-  Generated on: $(date)
+  Generated on: $current_date
 -->
 
 <CONTEXT>
