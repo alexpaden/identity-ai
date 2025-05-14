@@ -387,10 +387,8 @@ graph TD
     ReflectLambda --> NEXT[Atomic Task Selector]
     NEXT --> GUARD[Timer 300s]
     GUARD -- Proof Found --> WinTweet["✅ Tweet: Task started/completed!"]
-    GUARD -- Timeout --> StallTweet["⚠️ Tweet: Task missed!"] --> FocusBlocker["Block distractions for 15 min"]
+    GUARD -- Timeout --> StallTweet["⚠️ Tweet: Task missed!"] --> FocusBlocker["Acknowledge failure publicly"]
 ```
-
-Initial version (v0) could deploy entirely via GitHub Actions and simple cloud/serverless functions.
 
 ---
 
