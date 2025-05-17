@@ -218,3 +218,9 @@ Example: End-of-day entries evaluating what went well and areas for improvement.
 -----------
 
 
+Temporal Data Overload: As the system logs a person’s life over months and years, it risks becoming a bloated temporal knowledge graph. Storing ever-changing facts and beliefs with timestamps can outgrow lightweight data structures
+volodymyrpavlyshyn.medium.com
+, slowing queries or analysis. The original architecture may not have accounted for scalable “forgetting” or summarization mechanisms to prune the knowledge graph. Incorporating advanced temporal indexing or time-decay functions could prevent the mirror from drowning in its own memory (e.g. using “time-travel” databases or structural sharing for history
+volodymyrpavlyshyn.medium.com
+).
+
